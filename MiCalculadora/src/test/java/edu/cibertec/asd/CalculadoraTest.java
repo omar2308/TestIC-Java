@@ -25,6 +25,7 @@ public class CalculadoraTest {
 	
 	@Test
 	public void Sumar5ymenos1_resulta4() {
+		// Cambio adicional
 		Calculadora calc = new Calculadora();
 		int resultado = calc.sumar(5, -1);
 		assertEquals(4, resultado);
