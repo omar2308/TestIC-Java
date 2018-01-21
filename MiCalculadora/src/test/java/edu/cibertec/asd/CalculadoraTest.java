@@ -18,6 +18,7 @@ public class CalculadoraTest {
 
 	@Test
 	public void Sumar7y10_resulta17() {
+		//prueba javiermontes
 		Calculadora calc = new Calculadora();
 		int resultado = calc.sumar(7, 10);
 		assertEquals(17, resultado);
